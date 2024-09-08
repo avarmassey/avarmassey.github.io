@@ -1,0 +1,34 @@
+body {
+    background-color:lightblue;
+}
+p {
+    color:midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+}
+.statement {
+    font-style: italic;
+    font-size: medium;
+}
+.citation {
+    font-size: small;
+}
+.link {
+    font-size: medium;
+}
+a:hover{
+    color:darkred;
+}
+a::after{
+    color:indigo;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
